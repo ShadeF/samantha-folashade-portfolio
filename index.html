@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samantha Folashade — Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garant:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav id="nav">
+      <div class="nav-logo">SF</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">What I Do</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-mobile-btn" id="menuBtn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#services" class="mobile-link">What I Do</a>
+      <a href="#projects" class="mobile-link">Projects</a>
+      <a href="#experience" class="mobile-link">Experience</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="deco-blob deco1 parallax-layer" data-speed="0.3"></div>
+      <div class="deco-blob deco2 parallax-layer" data-speed="0.5"></div>
+      <div class="hero-left">
+        <span class="hero-tag">Based in Nairobi, Kenya</span>
+        <h1 class="hero-name">
+          Hi, I'm<br /><em>Samantha</em><br />Folashade.
+        </h1>
+        <p class="hero-tagline">
+          I'm a Frontend Developer & Executive Assistant who blends operational
+          excellence with technical know how so things don't just get done, they
+          get done <em>beautifully</em>.
+        </p>
+        <div class="hero-ctas">
+          <a href="#projects" class="btn-primary">See My Work <span>→</span></a>
+          <a href="#contact" class="btn-outline">Let's Connect</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num">3+</span
+            ><span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">3</span
+            ><span class="stat-label">Projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">10+</span
+            ><span class="stat-label">Hrs Saved/Week</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-img-wrap">
+          <div class="hero-img-bg parallax-layer" data-speed="0.2"></div>
+          <div class="hero-img-bg2 parallax-layer" data-speed="0.4"></div>
+          <img
+            src="images/shade_2.JPG"
+            alt="Samantha Folashade"
+            class="hero-photo"
+          />
+          <div class="hero-badge">
+            <div class="hero-badge-icon">⚡</div>
+            <div class="hero-badge-text">Executive Assistant</div>
+            <div class="hero-badge-sub">@ Athena · Current</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="about-grid">
+        <div class="about-img-wrap reveal from-left">
+          <img
+            src="images/shade_1.JPG"
+            alt="Samantha Folashade"
+            class="about-photo"
+          />
+          <div class="about-card reveal delay-2 scale-in">
+            <div class="about-card-title">Degree</div>
+            <div class="about-card-val">BSc.</div>
+            <div class="about-card-sub">
+              Applied Computer Technology<br />USIU-Africa, 2024
+            </div>
+          </div>
+          <div class="about-float reveal delay-3">🌍 Nairobi, Kenya</div>
+        </div>
+        <div class="about-text reveal from-right">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">
+            Operations mind.<br /><em>Technical roots.</em>
+          </h2>
+          <p class="about-bio">
+            I hold a degree in Applied Computer Technology from which gives me
+            something most Executive Assistants don't have because I understand
+            the tech stack, not just the calendar.
+          </p>
+          <p class="about-bio">
+            Currently at Athena supporting a multi-site physician and business
+            owner, I specialize in making senior leaders' lives seamlessly
+            efficient, from inbox-zero systems to cross-timezone coordination.
+          </p>
+          <p class="about-bio">
+            On the technical side, I build and maintain websites using HTML, CSS
+            and JavaScript, bridging the gap between operations and technology
+            in a way few people can.
+          </p>
+          <div class="tags">
+            <span class="tag tag-blue">Calendar Optimization</span>
+            <span class="tag tag-pink">Executive Support</span>
+            <span class="tag tag-yellow">HTML / CSS / JS</span>
+            <span class="tag tag-pink">Process Improvement</span>
+            <span class="tag tag-yellow">IT Support</span>
+            <span class="tag tag-blue">Google Workspace</span>
+            <span class="tag tag-pink">Multi-Timezone Ops</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT I DO -->
+    <!-- WHAT I DO -->
+    <section class="services" id="services">
+      <div class="services-heading reveal">
+        <span class="section-tag">What I Do</span>
+        <h2 class="section-title">Two skill sets,<br /><em>one person.</em></h2>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card service-feature blue reveal delay-1">
+          <div class="service-topline">
+            <span class="service-number">01</span>
+            <span class="service-pill blue">Frontend Developer</span>
+          </div>
+
+          <div class="service-hero">
+            <div class="service-icon-wrap blue">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#6A9DC8"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polyline points="16 18 22 12 16 6" />
+                <polyline points="8 6 2 12 8 18" />
+              </svg>
+            </div>
+
+            <div class="service-hero-copy">
+              <h3 class="service-name">Frontend Developer</h3>
+              <p class="service-desc">
+                I build clean, responsive websites and maintain existing ones
+                with a developer's precision. From full builds to content
+                updates and UI fixes, I handle the technical side with
+                confidence.
+              </p>
+            </div>
+          </div>
+
+          <div class="service-highlight">
+            <span>Website builds with HTML, CSS & JS</span>
+            <span>Site maintenance & content updates</span>
+            <span>UI fixes, edits & layout improvements</span>
+            <span>IT troubleshooting & technical support</span>
+          </div>
+        </article>
+
+        <article class="service-card service-support pink reveal delay-2">
+          <div class="service-topline">
+            <span class="service-number">02</span>
+            <span class="service-pill pink">Executive Assistant</span>
+          </div>
+
+          <div class="service-hero">
+            <div class="service-icon-wrap pink">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#E8957F"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="3" y="4" width="18" height="18" rx="2" />
+                <line x1="16" y1="2" x2="16" y2="6" />
+                <line x1="8" y1="2" x2="8" y2="6" />
+                <line x1="3" y1="10" x2="21" y2="10" />
+                <path d="M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01" />
+              </svg>
+            </div>
+
+            <div class="service-hero-copy">
+              <h3 class="service-name">Executive Assistant</h3>
+              <p class="service-desc">
+                I function as a true right hand, owning your calendar, inbox,
+                and priorities so you can stay in your zone of genius. I
+                anticipate needs, eliminate bottlenecks, and keep things moving
+                smoothly.
+              </p>
+            </div>
+          </div>
+
+          <div class="service-highlight">
+            <span>Inbox zero & calendar strategy</span>
+            <span>Multi-timezone scheduling (EST/EAT)</span>
+            <span>Executive reports & presentations</span>
+            <span>Stakeholder coordination & follow-ups</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+      <div class="projects-heading reveal">
+        <span class="section-tag">My Work</span>
+        <h2 class="section-title">
+          Projects I've<br /><em>made an impact on.</em>
+        </h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card p1 reveal delay-1">
+          <div class="project-preview">
+            <div class="project-preview-bar">
+              <div class="browser-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="browser-url">stratsolutionsinternational.com</div>
+            </div>
+
+            <img
+              src="images/strat-solutions-preview.jpg"
+              alt="Strat Solutions International website preview"
+              class="project-image"
+            />
+          </div>
+
+          <div class="project-meta">
+            <div class="project-year">2025</div>
+            <span class="project-badge">Strategy & Operations</span>
+            <div class="project-num">01</div>
+            <h3 class="project-title">Strat Solutions International</h3>
+            <p class="project-desc">
+              Built and managed a professional website for a strategy
+              consultancy, handling everything from design to deployment. Also
+              provided ongoing executive and operational support, including
+              stakeholder communications, deliverables, and digital workflow
+              management.
+            </p>
+            <p class="project-built">Built with HTML · CSS · JavaScript</p>
+            <div class="project-skills">
+              <span class="project-skill">Web Development</span>
+              <span class="project-skill">Exec Support</span>
+              <span class="project-skill">Operations</span>
+            </div>
+            <a
+              href="https://www.stratsolutionsinternational.com/"
+              target="_blank"
+              rel="noreferrer"
+              class="project-btn"
+            >
+              Open Site<span class="btn-arrow">→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card p2 reveal delay-2">
+          <div class="project-preview">
+            <div class="project-preview-bar">
+              <div class="browser-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="browser-url">drfahadalam.com</div>
+            </div>
+
+            <img
+              src="images/fahad_site.png"
+              alt="Medical portfolio site preview"
+              class="project-image"
+            />
+          </div>
+
+          <div class="project-meta">
+            <div class="project-year">Current</div>
+            <span class="project-badge">Healthcare</span>
+            <div class="project-num">02</div>
+            <h3 class="project-title">Medical Portfolio Site</h3>
+            <p class="project-desc">
+              Designed, developed, and deployed a professional portfolio website
+              for a physician using HTML, CSS, and JavaScript. I continue to
+              maintain the site through content updates, layout enhancements,
+              and technical improvements, ensuring it remains accurate,
+              responsive, and aligned with the client's evolving needs.
+            </p>
+            <p class="project-built">Built with HTML · CSS · JavaScript</p>
+            <div class="project-skills">
+              <span class="project-skill">HTML / CSS</span>
+              <span class="project-skill">UI Enhancements</span>
+              <span class="project-skill">Site Maintenance</span>
+            </div>
+            <a
+              href="https://drfahadalam.com/"
+              target="_blank"
+              rel="noreferrer"
+              class="project-btn"
+            >
+              Open Site <span class="btn-arrow">→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card p3 reveal delay-3">
+          <div class="project-preview">
+            <div class="project-preview-bar">
+              <div class="browser-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="browser-url">laeteon.com</div>
+            </div>
+
+            <img
+              src="images/laeteon.png"
+              alt="Real estate site preview"
+              class="project-image"
+            />
+          </div>
+
+          <div class="project-meta">
+            <div class="project-year">Current</div>
+            <span class="project-badge">Real Estate</span>
+            <div class="project-num">03</div>
+            <h3 class="project-title">Real Estate Site Management</h3>
+            <p class="project-desc">
+              Maintain and enhance an already established real estate platform
+              through content publishing, front-end updates, UI refinements, and
+              ongoing technical improvements. I ensure listings remain current,
+              pages stay functional, and the website continues to deliver a
+              seamless user experience.
+            </p>
+            <p class="project-built">Managed with WordPress</p>
+            <div class="project-skills">
+              <span class="project-skill">WordPress</span>
+              <span class="project-skill">Site Maintenance</span>
+              <span class="project-skill">Front-End Updates</span>
+            </div>
+            <a
+              href="https://laeteon.com/"
+              target="_blank"
+              rel="noreferrer"
+              class="project-btn"
+            >
+              Open Site <span class="btn-arrow">→</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="experience" id="experience">
+      <div class="exp-grid">
+        <div class="exp-sidebar reveal from-left">
+          <span class="section-tag">My Journey</span>
+          <h2 class="section-title">Experience &<br /><em>Background</em></h2>
+          <p class="exp-sidebar-text">
+            My career sits at a crossroads operational excellence meets
+            technical fluency. I've worked across healthcare, government IT, and
+            corporate environments.
+          </p>
+          <div class="exp-cert">
+            <div class="exp-cert-title">✦ Certifications</div>
+            <div class="exp-cert-item">ALX Virtual Assistance</div>
+            <div class="exp-cert-item">
+              Web Development & Mobile Applications
+            </div>
+            <div class="exp-cert-item">
+              ICDL — Essentials, Word, Presentations
+            </div>
+          </div>
+        </div>
+        <div class="timeline reveal from-right">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Jan 2026 – Present</div>
+            <div class="timeline-role">Executive Partner</div>
+            <div class="timeline-company">Athena · Nairobi, Kenya</div>
+            <ul class="timeline-points">
+              <li>
+                Dedicated assistant to a multi-site physician across hospital,
+                hyperbaric, and cosmetic clinic operations
+              </li>
+              <li>
+                Own inbox and calendar management across EST and local time
+                zones
+              </li>
+              <li>
+                Proactively structure executive workflows including inbox zero
+                systems and task tracking
+              </li>
+            </ul>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Mar 2025 – Jan 2026</div>
+            <div class="timeline-role">
+              Executive Partner, Director of Learning Experience
+            </div>
+            <div class="timeline-company">Athena · Nairobi, Kenya</div>
+            <ul class="timeline-points">
+              <li>Freed up 10+ hours per week through calendar optimization</li>
+              <li>
+                Delivered executive-ready reports and presentations for
+                leadership forums
+              </li>
+              <li>
+                Contributed to 40% reduction in turnaround time for key
+                workflows
+              </li>
+            </ul>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Sep 2023 – Nov 2023</div>
+            <div class="timeline-role">IT Support Officer</div>
+            <div class="timeline-company">
+              Kenya Revenue Authority · Nairobi, Kenya
+            </div>
+            <ul class="timeline-points">
+              <li>
+                Resolved hardware, software, and network issues for end-users
+              </li>
+              <li>
+                Managed network infrastructure including routers and switches
+              </li>
+              <li>
+                Installed, configured, and maintained software applications
+                organization-wide
+              </li>
+            </ul>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Oct 2020 – Oct 2024</div>
+            <div class="timeline-role">BSc. Applied Computer Technology</div>
+            <div class="timeline-company">
+              United States International University – Africa
+            </div>
+            <ul class="timeline-points">
+              <li>
+                Studied web development, IT systems, and applied technology
+              </li>
+              <li>Proficient in HTML, CSS, JavaScript, and React</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <span class="section-tag reveal">Get In Touch</span>
+      <h2 class="section-title reveal">Let's work<br /><em>together.</em></h2>
+      <p class="contact-sub reveal">
+        Whether you need a sharp Executive Assistant or a frontend developer to
+        build or maintain your web presence I'd love to hear from you.
+      </p>
+      <div class="contact-links reveal">
+        <a href="mailto:samanthashade83@gmail.com" class="contact-link"
+          >✉️ samanthashade83@gmail.com</a
+        >
+        <a
+          href="https://www.linkedin.com/in/samantha-folashade/"
+          target="_blank"
+          class="contact-link"
+          >🔗 LinkedIn</a
+        >
+        <a href="https://github.com/ShadeF" target="_blank" class="contact-link"
+          >⌨️ GitHub</a
+        >
+      </div>
+      <p class="footer-note">© 2026 Samantha Folashade · Nairobi, Kenya</p>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
